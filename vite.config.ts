@@ -24,10 +24,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/Cv2/',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src/app'),
+      '@': path.resolve(__dirname, './Cv2/src/app'),
     },
   },
 })
